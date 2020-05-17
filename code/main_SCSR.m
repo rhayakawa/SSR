@@ -118,7 +118,7 @@ set(h, 'MarkerFaceColor', get(h,'Color'));
 h=semilogy(arrSNR,arrSERcurve_ADMM_SCSR_L1L2,'-d','LineWidth',1,'MarkerSize',10,'MarkerFaceColor','auto');
 set(h, 'MarkerFaceColor', get(h,'Color'));
 grid on;
-objLegend=legend('ADMM-SCSR ($\ell_{1}$)','ADMM-SCSR ($\ell_{0}$)','ADMM-SCSR ($\ell_{1/2}$)','ADMM-SCSR ($\ell_{2/3}$)','ADMM-SCSR ($\ell_{1}-\ell_{2}$)');
+objLegend=legend('ADMM-SCSR ($\ell_{1}$)','ADMM-SCSR ($\ell_{2/3}$)','ADMM-SCSR ($\ell_{1/2}$)','ADMM-SCSR ($\ell_{0}$)','ADMM-SCSR ($\ell_{1}-\ell_{2}$)');
 xlabel('SNR (dB)');
 ylabel('SER');
 objLegend.Interpreter='latex';
